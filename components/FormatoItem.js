@@ -7,9 +7,9 @@ import { Link } from 'react-router-dom'
 class FormatoItem extends React.Component{
 
   render(){
-     const { nome, icon} = this.props
+     const { nome, icon, path} = this.props
     return(
-      <Link to='/menu'>
+      <Link to={path}>
         <div className = "Item" > 
               <div className = "DivObj">
                 {nome}

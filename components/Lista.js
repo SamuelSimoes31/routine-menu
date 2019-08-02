@@ -14,8 +14,11 @@ class Lista extends React.Component{
 
     for(let i =0; i< tam; i++){
       retorno.push(
-        <FormatoItem nome = {itens[i].nome}
-        icon = {itens[i].icon}  />
+        <FormatoItem 
+        nome = {itens[i].nome}
+        icon = {itens[i].icon}
+        path = {itens[i].path}
+        />
       )
     }
 

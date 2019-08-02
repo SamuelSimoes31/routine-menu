@@ -15,30 +15,35 @@ import {BrowserRouter, Switch, Route } from 'react-router-dom';
 class App extends Component {
 
   render() {
-    let obj = [{
+    const obj = [{
       nome: 'Seus Objetos',
-      icon: 'key'
-      path: '/menu'
+      icon: 'key',
+      path: '/objetos/visualizar'
     },
     {
       nome: 'Pessoas',
-      icon: 'user'
+      icon: 'user',
+      path: '/'
     },
     {
       nome: 'Remédios',
-      icon: 'medicine-box'
+      icon: 'medicine-box',
+      path: '/remedios/visualizar'
     },
     {
       nome: 'Rotina',
-      icon: 'clock-circle'
+      icon: 'clock-circle',
+      path: '/rotina/visualizar'
     },
     {
-      nome: 'item2',
-      icon: 'icon2'
+      nome: 'menu',
+      icon: 'icon2',
+      path: '/menu'
     },
     {
-      nome: 'item2',
-      icon: 'icon2'
+      nome: 'menu',
+      icon: 'icon2',
+      path: '/menu'
     }];
     
 
