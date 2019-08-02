@@ -19,8 +19,8 @@ class Lista extends React.Component{
       retorno.push(
         <FormatoItem 
         nome = {itens[i].nome}
-        icon = {itens[i].icon}
-        path = {itens[i].path}
+        parentesco = {itens[i].parentesco}
+        imgURL = {itens[i].imgURL}
         />
       )
     }

@@ -24,28 +24,27 @@ class App extends Component {
   render() {
     const obj = [{
       nome: 'Fulana 1',
-      parentesco: 'Conhecida',
+      parentesco: 'Tia',
       imgURL: 'https://i.pinimg.com/originals/cd/b9/49/cdb9491ba96263a4f89f6d062412956f.jpg'
     },
     {
        nome: 'Fulana 2',
-      parentesco: 'Sumida',
+      parentesco: 'Mãe',
       imgURL: 'https://i.pinimg.com/originals/cd/b9/49/cdb9491ba96263a4f89f6d062412956f.jpg'
     },
     {   nome: 'Fulana 3',
-      parentesco: 'Disvorciada',
+      parentesco: 'Vizinha',
       imgURL: 'https://i.pinimg.com/originals/cd/b9/49/cdb9491ba96263a4f89f6d062412956f.jpg'
     },
     {   nome: 'Fulana 4',
-      parentesco: 'Melhor nem lembrar',
+      parentesco: 'Pai',
       imgURL: 'https://i.pinimg.com/originals/cd/b9/49/cdb9491ba96263a4f89f6d062412956f.jpg'
     },
     {   nome: 'Fulana 5',
       parentesco: 'Conhecida',
       imgURL: 'https://i.pinimg.com/originals/cd/b9/49/cdb9491ba96263a4f89f6d062412956f.jpg'
-    },
-    {
-    }];
+    }
+    ];
     
 
     return (

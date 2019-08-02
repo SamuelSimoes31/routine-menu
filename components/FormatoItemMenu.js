@@ -7,16 +7,18 @@ import { Link } from 'react-router-dom'
 class FormatoItem extends React.Component{
 
   render(){
-     const { nome, icon, path} = this.props
+     const { nome, parentesco, imgURL} = this.props
     return(
-      <Link to={path}>
+
         <div className = "Item" > 
               <div className = "DivObj">
+                <img className="Pessoa" src={imgURL} />
                 {nome}
-              </div> 
-            <Icon className="Delete" type={icon}/>
+                <br/>
+                <div className='Descricao'>{parentesco}</div>
+              </div>
         </div>
-      </Link>
+
     );
   }
 
