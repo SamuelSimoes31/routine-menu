@@ -1,8 +1,11 @@
 import React from 'react';
 import { Input, Tooltip, Icon, Button} from 'antd';
 import 'antd/es/date-picker/style/css';
-import FormatoItem from './FormatoItem.js';
+
+//////////////////////////////////
+import FormatoItem from './FormatoItemMenu.js';
 import './FormatoItem.css';
+///////////////////////////////////////////////
 
 class Lista extends React.Component{
     

@@ -4,11 +4,18 @@ import Hello from './Hello';
 import './style.css';
 import 'antd/es/date-picker/style/css';
 import InputLabel from './components/InputLabel.js'
-import Lista from './components/Lista.js'
+
+
+
 import Entrar from './components/Entrar.js'
 import Button from '@material-ui/core/Button';
 import Registro from './components/Registro.js';
 import {BrowserRouter, Switch, Route } from 'react-router-dom';
+
+/////////////////////////////////
+import Lista from './components/ListaMenu.js'
+/////////////////////////////////////
+
 
 //<InputLabel/>
 //
